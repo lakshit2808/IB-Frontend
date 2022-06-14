@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import IbFrontend from './IbFrontend';
 import PositionHandling from './TradeInfo/PositionHandling';
-import PortfolioAnalytics from './TradeInfo/PortfolioAnalytics';
 import SideMenu, { menuItems } from "./SideMenu";
 import {Route} from "react-router-dom";
 
@@ -35,14 +34,6 @@ const Home = ({updateUser}) => {
           {menu.name === "Position Handling" ? (
             <div className="content">
             <PositionHandling/>
-            </div>
-          ) : (
-            <div className="content"></div>
-          )}
-
-          {menu.name === "Portfolio Analytics" ? (
-            <div className="content">
-            <PortfolioAnalytics/>
             </div>
           ) : (
             <div className="content"></div>

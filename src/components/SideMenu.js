@@ -21,12 +21,6 @@ export const menuItems = [
     ],
   },
   {
-    name: "Portfolio Analytics",
-    exact: true,
-    to: "/analytics",
-    iconClassName: "bi bi-pie-chart"
-  },
-  {
     name: "Logout",
     exact: true,
     to: "/",
